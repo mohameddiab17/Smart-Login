@@ -1,0 +1,73 @@
+body{
+    background-color: #24353F;
+    font-family: sans-serif;
+}
+
+:root{
+    --primary-color : #17A2B8;
+}
+
+.primary-color{
+    color: #17A2B8 ;
+}
+
+h1{
+    color: var(--primary-color);
+    font-size: 2.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.login-content{
+    box-shadow: -5px 2px 55px -9px rgba(0, 0, 0, 1);
+}
+
+.login-inputs input:focus , .signUp-inputs input:focus{
+    border-color: #80bdff ;
+    box-shadow: 0 0 0 0 transparent !important;
+}
+
+.login-inputs input::placeholder , .signUp-inputs input::placeholder{
+    color: #B6B6AB;
+    font-size: 18px;
+}
+
+.submit-btn  .btn
+{
+    border:1px solid var(--primary-color);
+    color: var(--primary-color);
+}
+.submit-btn  .btn:hover
+{
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.account-question  a:hover
+{
+    text-decoration: underline !important;
+}
+
+/* !---------------------------------------- */
+
+.box-shadow{
+    box-shadow:10px 10px 30px 8px rgba(0,0,0,0.8) ;
+}
+
+/* !---------------------------------------- */
+
+.home-content p 
+{
+    font-size: 40px;
+    font-weight: 500;
+    color: var(--primary-color);
+}
+
+.btn-outline-warning
+{
+    color: rgba(255, 255, 255, 0.5);
+}
+.btn-outline-warning:hover 
+{
+    color: rgba(255, 255, 255, 0.75);
+}
